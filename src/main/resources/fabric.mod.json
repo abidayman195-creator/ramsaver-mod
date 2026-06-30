@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "ramsaver",
+	"version": "${version}",
+	"name": "RAM Saver",
+	"description": "Reduce el uso de RAM ajustando automáticamente distancia de renderizado, simulación, partículas y escalado de entidades cuando detecta presión de memoria, además de forzar limpieza de memoria de forma controlada.",
+	"authors": [
+		"Tú"
+	],
+	"contact": {},
+	"license": "CC0-1.0",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.ramsaver.RamSaverMod"
+		],
+		"client": [
+			"com.ramsaver.RamSaverClient"
+		]
+	},
+	"mixins": [],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
